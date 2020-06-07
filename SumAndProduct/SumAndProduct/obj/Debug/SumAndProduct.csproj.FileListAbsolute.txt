@@ -1,0 +1,7 @@
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\bin\Debug\SumAndProduct.exe.config
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\bin\Debug\SumAndProduct.exe
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\bin\Debug\SumAndProduct.pdb
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\obj\Debug\SumAndProduct.csprojAssemblyReference.cache
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\obj\Debug\SumAndProduct.csproj.CoreCompileInputs.cache
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\obj\Debug\SumAndProduct.exe
+E:\C# week1 assignment\SumAndProduct\SumAndProduct\obj\Debug\SumAndProduct.pdb
