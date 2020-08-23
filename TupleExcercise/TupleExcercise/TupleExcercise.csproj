@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7DD290F-C3B5-4D4F-9A30-3FBD1FEB4077}</ProjectGuid>
+    <ProjectGuid>{D3FBB3BB-FFD1-410C-8A74-85946263B505}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TupleExcercise</RootNamespace>
-    <AssemblyName>TupleExcercise</AssemblyName>
+    <RootNamespace>tupleexcercise</RootNamespace>
+    <AssemblyName>tupleexcercise</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

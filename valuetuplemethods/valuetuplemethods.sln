@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valuetuplemethods", "valuetuplemethods\valuetuplemethods.csproj", "{BFA65D9E-2992-4B56-B2A9-784809F8BBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA65D9E-2992-4B56-B2A9-784809F8BBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA65D9E-2992-4B56-B2A9-784809F8BBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA65D9E-2992-4B56-B2A9-784809F8BBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA65D9E-2992-4B56-B2A9-784809F8BBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED998AA-B827-495E-931F-540CE6E3DDCA}
+	EndGlobalSection
+EndGlobal

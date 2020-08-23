@@ -4,34 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericClass
+namespace genericclass
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Buildings<int> abc = new Buildings<int>();
+            abc.Name = "empire state";
+            abc.Height = 23;
+            abc.Weight = 43;
+            abc.City = "NY";
+            Console.WriteLine(" name = " + abc.Name);
+            Console.WriteLine("height = "+ abc.Height);
+            Console.WriteLine("weight = " + abc.Weight);
+            Console.WriteLine("city = " + abc.City);
 
-            Movies<double,DateTime> movieDetails = new Movies<double,DateTime>();
-            movieDetails.Name = "lol";
-            movieDetails.Director = "abc";
-            movieDetails.Rate = 8.0;
-            movieDetails.Date = new DateTime(2019,12,10);
+            Buildings<double> xyz = new Buildings<double>();
+            xyz.Name = "tower";
+            xyz.Height = 43;
+            xyz.Weight = 12;
+            xyz.City = "dubai";
+            Console.WriteLine("----------------------");
+            Console.WriteLine(" name = " + xyz.Name);
+            Console.WriteLine("height = " + xyz.Height);
+            Console.WriteLine("weight = " + xyz.Weight);
+            Console.WriteLine("city = " + xyz.City);
 
-            Movies<double, DateTime> movieDetails1 = new Movies<double, DateTime>();
-            movieDetails1.Name = "abc";
-            movieDetails1.Director = "pqr";
-            movieDetails1.Rate = 9.9;
-            movieDetails1.Date = new DateTime(2020, 08, 10);
 
-            List<Movies<double,DateTime>> listmoviesone = new List<Movies<double, DateTime>>();
-            listmoviesone.Add(movieDetails);
-            listmoviesone.Add(movieDetails1);
+            Buildings<float> pqr = new Buildings<float>();
+            pqr.Name = "eiffel tower";
+            pqr.Height = 76;
+            pqr.Weight = 52;
+            pqr.City = " paris";
+            Console.WriteLine("----------------------");
+            Console.WriteLine(" name = " + pqr.Name);
+            Console.WriteLine("height = " + pqr.Height);
+            Console.WriteLine("weight = " + pqr.Weight);
+            Console.WriteLine("city = " + pqr.City);
 
-            
+
 
         }
     }
-    class Movies<T, U>
+
+    class Buildings<T>
     {
         private string name;
 
@@ -41,28 +58,28 @@ namespace GenericClass
             set { name = value; }
         }
 
-        private string director;
+        private string city;
 
-        public string Director
+        public string City
         {
-            get { return director; }
-            set { director = value; }
+            get { return city; }
+            set { city = value; }
         }
 
-        private T rate;
-                    
-        public T Rate
+        private T height;               
+
+        public T Height
         {
-            get { return rate; }
-            set { rate = value; }
+            get { return height; }
+            set { height = value; }
         }
 
-        private U date;
+        private T weight;
 
-        public U Date
+        public T Weight
         {
-            get { return date; }
-            set { date = value; }
+            get { return weight; }
+            set { weight = value; }
         }
 
 
